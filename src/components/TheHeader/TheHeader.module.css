@@ -1,0 +1,14 @@
+.header {
+    background-color: gray;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    padding: 15px 5px;
+    color: #ffffff;
+}
