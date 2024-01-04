@@ -3,9 +3,12 @@
 }
 
 .navList {
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+    font-weight: 600;
 }
 
 .link {

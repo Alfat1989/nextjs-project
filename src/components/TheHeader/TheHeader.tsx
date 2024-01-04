@@ -1,13 +1,17 @@
-import Link from "next/link"
 import styles from './TheHeader.module.css'
+import { Navigation } from "../Navigation/Navigation"
+
+const navItems = [
+    { label: 'Home', href: '/' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'About', href: '/about' },
+]
 
 export const Header = () => {
     return (
         <header className={styles.header}>
             <nav className={styles.navList}>
-                <Link className={styles.link} href='/'>Home</Link>
-                <Link className={styles.link} href='/blog'>Blog</Link>
-                <Link className={styles.link} href='/about'>About</Link>
+                <Navigation navLinks={navItems} />
             </nav>
         </header>
     )

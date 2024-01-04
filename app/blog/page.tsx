@@ -14,8 +14,6 @@ async function getData() {
         }
     })
 
-    if (!responce.ok) throw new Error('Enable fetch posts!')
-
     return responce.json()
 }
 
